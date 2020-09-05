@@ -24,10 +24,18 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/Burger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +66,58 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../http" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/original/redux--01-start" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebstormProjects\burger_app\src\hoc" />
-      <recent name="$PROJECT_DIR$/src/components/Burger" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/reducers" />
+      <recent name="$PROJECT_DIR$/src/store/actions" />
+      <recent name="D:\WebstormProjects\burger_app\src\hoc" />
+      <recent name="$PROJECT_DIR$/src/components/Burger" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.auth reducer.should return the initial state">
+    <configuration name="auth reducer.should return the initial state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/store/reducers/auth.test.js" />
+      <test-names>
+        <test-name value="auth reducer" />
+        <test-name value="should return the initial state" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth reducer.should store the token upon login" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/store/reducers/auth.test.js" />
+      <test-names>
+        <test-name value="auth reducer" />
+        <test-name value="should store the token upon login" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -91,8 +131,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.auth reducer.should return the initial state" />
+        <item itemvalue="Jest.auth reducer.should store the token upon login" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,56 +161,88 @@
       <workItem from="1597303223850" duration="2513000" />
       <workItem from="1597325506645" duration="1227000" />
       <workItem from="1597486759913" duration="1196000" />
+      <workItem from="1597715527746" duration="1599000" />
+      <workItem from="1597723242851" duration="1052000" />
+      <workItem from="1597810769281" duration="405000" />
+      <workItem from="1597845506762" duration="640000" />
+      <workItem from="1597983992068" duration="10591000" />
+      <workItem from="1598084568934" duration="8203000" />
+      <workItem from="1598193179495" duration="5671000" />
+      <workItem from="1598271632245" duration="217000" />
+      <workItem from="1598341204264" duration="1249000" />
+      <workItem from="1598518863713" duration="5316000" />
+      <workItem from="1598924890867" duration="28110000" />
+      <workItem from="1599037729060" duration="3181000" />
+      <workItem from="1599040919017" duration="7738000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="217" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596036703665">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="217" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596036703665" />
-    <state x="1626" y="278" key="FileChooserDialogImpl" timestamp="1597065837045">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="185" y="205" width="426" height="496" key="FileChooserDialogImpl" timestamp="1599040881237">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="1626" y="278" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597065837045" />
-    <state width="1308" height="156" key="GridCell.Tab.0.bottom" timestamp="1597044247320">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="185" y="205" width="426" height="496" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1599040881237" />
+    <state width="658" height="253" key="GridCell.Tab.0.bottom" timestamp="1599064327551">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1308" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597044247320" />
-    <state width="1308" height="156" key="GridCell.Tab.0.center" timestamp="1597044247320">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="658" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1599064327551" />
+    <state width="658" height="253" key="GridCell.Tab.0.center" timestamp="1599064327551">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1308" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597044247320" />
-    <state width="1308" height="156" key="GridCell.Tab.0.left" timestamp="1597044247319">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="658" height="253" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1599064327551" />
+    <state width="658" height="253" key="GridCell.Tab.0.left" timestamp="1599064327551">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1308" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597044247319" />
-    <state width="1308" height="156" key="GridCell.Tab.0.right" timestamp="1597044247320">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="658" height="253" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1599064327551" />
+    <state width="658" height="253" key="GridCell.Tab.0.right" timestamp="1599064327551">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1308" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597044247320" />
+    <state width="658" height="253" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1599064327551" />
     <state x="32" y="206" key="SettingsEditor" timestamp="1596036942399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="32" y="206" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596036942399" />
-    <state x="86" y="228" width="787" height="624" key="find.popup" timestamp="1596257442188">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="100" y="100" width="483" height="568" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599041103063">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="100" y="100" width="483" height="568" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1599041103063" />
+    <state x="61" y="130" width="810" height="638" key="find.popup" timestamp="1599038849982">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="61" y="130" width="810" height="638" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1599038849982" />
     <state x="86" y="228" width="787" height="624" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596257442188" />
+    <state x="5" y="166" key="run.anything.popup" timestamp="1598972288229">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="5" y="166" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1598972288229" />
+    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598925547902">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1598925547902" />
   </component>
 </project>
